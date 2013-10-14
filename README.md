@@ -36,3 +36,11 @@ Custom [Yo](https://github.com/yeoman/yo) generator.
         yo voytek
 
 3. Follow the instructions on the prompt.
+
+4. After all dependencies have been installed, run the server:
+
+        grunt server
+
+## Notes
+        
+The server is setup with livereload and should be accesibble at <http://localhost:8000>. SCSS files will be compiled automatically while the prompt running `grunt server` is open. In addition, all JS files inside the `js` directory will be linted on save.
