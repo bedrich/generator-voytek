@@ -45,6 +45,7 @@ FkGenerator.prototype.app = function app() {
     this.template('scss/main.scss', 'scss/main.scss');
     this.template('scss/_modules.scss', 'scss/_modules.scss');
     this.template('scss/_theme.scss', 'scss/_theme.scss');
+    this.template('scss/_base.scss', 'scss/_base.scss');
     this.template('js/main.js', 'js/main.js');
 
     this.copy('_package.json', 'package.json');
