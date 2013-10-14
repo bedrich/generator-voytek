@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = function (grunt) {
 
     var LIVERELOAD_PORT = 35729;
@@ -20,12 +22,12 @@ module.exports = function (grunt) {
         },
         connect: {
             server: {
-            options: {
-                port: 8000,
-                hostname: 'localhost',
-                open: true,
-                livereload: LIVERELOAD_PORT
-            }
+                options: {
+                    port: 8000,
+                    hostname: 'localhost',
+                    open: true,
+                    livereload: LIVERELOAD_PORT
+                }
             }
         },
         compass: {
